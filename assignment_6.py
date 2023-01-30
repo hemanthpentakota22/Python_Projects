@@ -17,15 +17,10 @@ def solution(n):
                 a=a*10
             b=b//10
         return a==n
-    elif(b<-10):
-        while (-231 <= b <= -1):
-            a += (b % -10)
-            if (b < -10):
-                a = a * 10
-            b = b // 10 + 1
-        return a == n
-    else:
+    elif(0<=b<10):
         return True
+    else:
+        return False
 
 n=int(input())
 if(-231<= n <= 231-1):
