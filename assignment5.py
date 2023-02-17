@@ -14,7 +14,7 @@ Examples:
 Assume that:
 
 A and B are integers within the range [0..100];
-at least one solution exists for the given A and B.'''
+at least one solution exists for the given A and B. '''
 
     
 a=""
