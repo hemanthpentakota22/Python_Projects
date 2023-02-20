@@ -57,5 +57,7 @@ def longestVowelSubsequence(s):
                     b += s[i]
                     c += 1
         return c
+
+
 s=input()
 print(longestVowelSubsequence(s))
