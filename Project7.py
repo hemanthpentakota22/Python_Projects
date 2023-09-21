@@ -7,6 +7,8 @@ Example 2:Input: s = "aa", p = "*"Output: trueExplanation:'*' matches any sequen
 Example 3:Input: s = "cb", p = "?a"Output: falseExplanation:'?' matches 'c', but the second letter is 'a',
 which does not match 'b'.Constraints:0 <= s.length, p.length <= 2000s contains only lowercase English letters.
 p contains only lowercase English letters, '?' or '*'. '''
+
+
 s=input().lower()
 p=input().lower()
 if(0<=len(s)<=2000 and 0<=len(p)<=2000):
