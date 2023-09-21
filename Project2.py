@@ -7,6 +7,7 @@
  Assume that:N is an integer within the range [1..1,000,000,000].In your solution, focus on correctness.
  The performance of your solution will not be the focus of the assessment. '''
 
+
 def solution(N):
     a=0
     for i in range(0,N//2):
