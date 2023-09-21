@@ -63,6 +63,7 @@ the distance to the next source is greater than the amount of magic at the curre
 No matter where Aladdin starts, he will not be able to finish his travel.
 '''
 
+
 def optimalPoint(m,d):
     c = 0
     e = []
