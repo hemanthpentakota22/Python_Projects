@@ -28,6 +28,7 @@ Sample Output 0
 ExplanationThe string s does not contain all of the vowels, so return 0.'''
 
 
+
 def longestVowelSubsequence(s):
     a = set(s)
     b = ""
